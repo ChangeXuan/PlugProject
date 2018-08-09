@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA7582BF211C2AB700966D9D /* CreateQRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7582BE211C2AB700966D9D /* CreateQRCode.swift */; };
+		DA7582C1211C2C5200966D9D /* QRCode.md in Resources */ = {isa = PBXBuildFile; fileRef = DA7582C0211C2C5200966D9D /* QRCode.md */; };
 		DA9A81F2211BEBDA0074E8A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9A81F1211BEBDA0074E8A8 /* AppDelegate.swift */; };
 		DA9A81F4211BEBDA0074E8A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9A81F3211BEBDA0074E8A8 /* ViewController.swift */; };
 		DA9A81F7211BEBDA0074E8A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA9A81F5211BEBDA0074E8A8 /* Main.storyboard */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA7582BE211C2AB700966D9D /* CreateQRCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateQRCode.swift; sourceTree = "<group>"; };
+		DA7582C0211C2C5200966D9D /* QRCode.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = QRCode.md; sourceTree = "<group>"; };
 		DA9A81EE211BEBDA0074E8A8 /* PlugProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlugProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA9A81F1211BEBDA0074E8A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA9A81F3211BEBDA0074E8A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA7582BD211C2A9400966D9D /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				DA7582C0211C2C5200966D9D /* QRCode.md */,
+				DA7582BE211C2AB700966D9D /* CreateQRCode.swift */,
+			);
+			path = QRCode;
+			sourceTree = "<group>";
+		};
 		DA9A81E5211BEBD90074E8A8 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +116,7 @@
 		DA9A81F0211BEBDA0074E8A8 /* PlugProject */ = {
 			isa = PBXGroup;
 			children = (
+				DA7582BD211C2A9400966D9D /* QRCode */,
 				DA9A821F211BEBE70074E8A8 /* Screen Shot&Cap */,
 				DA9A81F1211BEBDA0074E8A8 /* AppDelegate.swift */,
 				DA9A81F3211BEBDA0074E8A8 /* ViewController.swift */,
@@ -250,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA9A81FC211BEBDA0074E8A8 /* LaunchScreen.storyboard in Resources */,
+				DA7582C1211C2C5200966D9D /* QRCode.md in Resources */,
 				DAD0BA78211C0B44005D153F /* Screen Shot&Cap.md in Resources */,
 				DA9A81F9211BEBDA0074E8A8 /* Assets.xcassets in Resources */,
 				DA9A81F7211BEBDA0074E8A8 /* Main.storyboard in Resources */,
@@ -277,6 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA7582BF211C2AB700966D9D /* CreateQRCode.swift in Sources */,
 				DA9A81F4211BEBDA0074E8A8 /* ViewController.swift in Sources */,
 				DA9A8221211BEF3D0074E8A8 /* ScreenShot.swift in Sources */,
 				DA9A8223211BF1A60074E8A8 /* ScreenCap.swift in Sources */,

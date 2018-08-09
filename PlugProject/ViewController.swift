@@ -20,16 +20,11 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
     
-    /// 屏幕录制开启按钮
-    ///
-    /// - Parameter sender:
     @IBAction func screenCap(_ sender: Any) {
     }
-    
-    /// 屏幕截图开启按钮
-    ///
-    /// - Parameter sender:
     @IBAction func screenShot(_ sender: Any) {
+    }
+    @IBAction func createQRCode(_ sender: Any) {
     }
 }
 
