@@ -14,6 +14,9 @@
 		DA9A81FC211BEBDA0074E8A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA9A81FA211BEBDA0074E8A8 /* LaunchScreen.storyboard */; };
 		DA9A8207211BEBDA0074E8A8 /* PlugProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9A8206211BEBDA0074E8A8 /* PlugProjectTests.swift */; };
 		DA9A8212211BEBDA0074E8A8 /* PlugProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9A8211211BEBDA0074E8A8 /* PlugProjectUITests.swift */; };
+		DA9A8221211BEF3D0074E8A8 /* ScreenShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9A8220211BEF3D0074E8A8 /* ScreenShot.swift */; };
+		DA9A8223211BF1A60074E8A8 /* ScreenCap.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9A8222211BF1A60074E8A8 /* ScreenCap.swift */; };
+		DAD0BA78211C0B44005D153F /* Screen Shot&Cap.md in Resources */ = {isa = PBXBuildFile; fileRef = DAD0BA77211C0B44005D153F /* Screen Shot&Cap.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		DA9A820D211BEBDA0074E8A8 /* PlugProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlugProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA9A8211211BEBDA0074E8A8 /* PlugProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlugProjectUITests.swift; sourceTree = "<group>"; };
 		DA9A8213211BEBDA0074E8A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA9A8220211BEF3D0074E8A8 /* ScreenShot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenShot.swift; sourceTree = "<group>"; };
+		DA9A8222211BF1A60074E8A8 /* ScreenCap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenCap.swift; sourceTree = "<group>"; };
+		DAD0BA77211C0B44005D153F /* Screen Shot&Cap.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Screen Shot&Cap.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +103,12 @@
 		DA9A81F0211BEBDA0074E8A8 /* PlugProject */ = {
 			isa = PBXGroup;
 			children = (
+				DA9A821F211BEBE70074E8A8 /* Screen Shot&Cap */,
 				DA9A81F1211BEBDA0074E8A8 /* AppDelegate.swift */,
 				DA9A81F3211BEBDA0074E8A8 /* ViewController.swift */,
 				DA9A81F5211BEBDA0074E8A8 /* Main.storyboard */,
-				DA9A81F8211BEBDA0074E8A8 /* Assets.xcassets */,
 				DA9A81FA211BEBDA0074E8A8 /* LaunchScreen.storyboard */,
+				DA9A81F8211BEBDA0074E8A8 /* Assets.xcassets */,
 				DA9A81FD211BEBDA0074E8A8 /* Info.plist */,
 			);
 			path = PlugProject;
@@ -123,6 +130,16 @@
 				DA9A8213211BEBDA0074E8A8 /* Info.plist */,
 			);
 			path = PlugProjectUITests;
+			sourceTree = "<group>";
+		};
+		DA9A821F211BEBE70074E8A8 /* Screen Shot&Cap */ = {
+			isa = PBXGroup;
+			children = (
+				DAD0BA77211C0B44005D153F /* Screen Shot&Cap.md */,
+				DA9A8220211BEF3D0074E8A8 /* ScreenShot.swift */,
+				DA9A8222211BF1A60074E8A8 /* ScreenCap.swift */,
+			);
+			path = "Screen Shot&Cap";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA9A81FC211BEBDA0074E8A8 /* LaunchScreen.storyboard in Resources */,
+				DAD0BA78211C0B44005D153F /* Screen Shot&Cap.md in Resources */,
 				DA9A81F9211BEBDA0074E8A8 /* Assets.xcassets in Resources */,
 				DA9A81F7211BEBDA0074E8A8 /* Main.storyboard in Resources */,
 			);
@@ -260,6 +278,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA9A81F4211BEBDA0074E8A8 /* ViewController.swift in Sources */,
+				DA9A8221211BEF3D0074E8A8 /* ScreenShot.swift in Sources */,
+				DA9A8223211BF1A60074E8A8 /* ScreenCap.swift in Sources */,
 				DA9A81F2211BEBDA0074E8A8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,6 +447,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TQ42Q3YS7A;
 				INFOPLIST_FILE = PlugProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zero.PlugProject;
@@ -441,6 +462,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TQ42Q3YS7A;
 				INFOPLIST_FILE = PlugProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zero.PlugProject;

@@ -9,17 +9,27 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-
-
+    
+    /// 屏幕录制开启按钮
+    ///
+    /// - Parameter sender:
+    @IBAction func screenCap(_ sender: Any) {
+    }
+    
+    /// 屏幕截图开启按钮
+    ///
+    /// - Parameter sender:
+    @IBAction func screenShot(_ sender: Any) {
+    }
 }
 
