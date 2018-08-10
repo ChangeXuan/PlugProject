@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		DA44DC8C211D41C7007097B9 /* GPSClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA44DC8B211D41C7007097B9 /* GPSClass.swift */; };
 		DA44DC8E211D547B007097B9 /* GPSClass.md in Resources */ = {isa = PBXBuildFile; fileRef = DA44DC8D211D547B007097B9 /* GPSClass.md */; };
+		DA44DC90211D6E5D007097B9 /* GyroscopeClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA44DC8F211D6E5D007097B9 /* GyroscopeClass.swift */; };
+		DA44DC92211D731A007097B9 /* GyroscopeClass.md in Resources */ = {isa = PBXBuildFile; fileRef = DA44DC91211D731A007097B9 /* GyroscopeClass.md */; };
 		DA7582BF211C2AB700966D9D /* CreateQRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7582BE211C2AB700966D9D /* CreateQRCode.swift */; };
 		DA7582C1211C2C5200966D9D /* QRCode.md in Resources */ = {isa = PBXBuildFile; fileRef = DA7582C0211C2C5200966D9D /* QRCode.md */; };
 		DA9A81F2211BEBDA0074E8A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9A81F1211BEBDA0074E8A8 /* AppDelegate.swift */; };
@@ -43,6 +45,8 @@
 /* Begin PBXFileReference section */
 		DA44DC8B211D41C7007097B9 /* GPSClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSClass.swift; sourceTree = "<group>"; };
 		DA44DC8D211D547B007097B9 /* GPSClass.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = GPSClass.md; sourceTree = "<group>"; };
+		DA44DC8F211D6E5D007097B9 /* GyroscopeClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroscopeClass.swift; sourceTree = "<group>"; };
+		DA44DC91211D731A007097B9 /* GyroscopeClass.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = GyroscopeClass.md; sourceTree = "<group>"; };
 		DA7582BE211C2AB700966D9D /* CreateQRCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateQRCode.swift; sourceTree = "<group>"; };
 		DA7582C0211C2C5200966D9D /* QRCode.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = QRCode.md; sourceTree = "<group>"; };
 		DA9A81EE211BEBDA0074E8A8 /* PlugProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlugProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +104,8 @@
 		DA44DC8A211C2F77007097B9 /* Gyroscope */ = {
 			isa = PBXGroup;
 			children = (
+				DA44DC91211D731A007097B9 /* GyroscopeClass.md */,
+				DA44DC8F211D6E5D007097B9 /* GyroscopeClass.swift */,
 			);
 			path = Gyroscope;
 			sourceTree = "<group>";
@@ -288,6 +294,7 @@
 				DA9A81FC211BEBDA0074E8A8 /* LaunchScreen.storyboard in Resources */,
 				DA7582C1211C2C5200966D9D /* QRCode.md in Resources */,
 				DAD0BA78211C0B44005D153F /* Screen Shot&Cap.md in Resources */,
+				DA44DC92211D731A007097B9 /* GyroscopeClass.md in Resources */,
 				DA9A81F9211BEBDA0074E8A8 /* Assets.xcassets in Resources */,
 				DA44DC8E211D547B007097B9 /* GPSClass.md in Resources */,
 				DA9A81F7211BEBDA0074E8A8 /* Main.storyboard in Resources */,
@@ -317,6 +324,7 @@
 			files = (
 				DA7582BF211C2AB700966D9D /* CreateQRCode.swift in Sources */,
 				DA44DC8C211D41C7007097B9 /* GPSClass.swift in Sources */,
+				DA44DC90211D6E5D007097B9 /* GyroscopeClass.swift in Sources */,
 				DA9A81F4211BEBDA0074E8A8 /* ViewController.swift in Sources */,
 				DA9A8221211BEF3D0074E8A8 /* ScreenShot.swift in Sources */,
 				DA9A8223211BF1A60074E8A8 /* ScreenCap.swift in Sources */,
