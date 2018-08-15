@@ -19,11 +19,6 @@ class ViewController: UIViewController{
 //        self.testLabel = UILabel.init(frame: CGRect.init(x: 100, y: 100, width: 300, height: 100))
 //        self.testLabel.text = "000000"
 //        self.view.addSubview(self.testLabel)
-
-        let test = "ffff"
-        print(test.hexStringToInt())
-
-        
         
     }
 

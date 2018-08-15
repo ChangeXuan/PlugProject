@@ -14,6 +14,7 @@
 		DA52B59E2123CD00004BDC34 /* GradientColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA52B59D2123CD00004BDC34 /* GradientColor.swift */; };
 		DA52B5A02123D39C004BDC34 /* GradientColor.md in Resources */ = {isa = PBXBuildFile; fileRef = DA52B59F2123D39C004BDC34 /* GradientColor.md */; };
 		DA52B5A32123D750004BDC34 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA52B5A22123D750004BDC34 /* StringExtension.swift */; };
+		DA52B5A62123FDDF004BDC34 /* CrawData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA52B5A52123FDDF004BDC34 /* CrawData.swift */; };
 		DA7582BF211C2AB700966D9D /* CreateQRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7582BE211C2AB700966D9D /* CreateQRCode.swift */; };
 		DA7582C1211C2C5200966D9D /* QRCode.md in Resources */ = {isa = PBXBuildFile; fileRef = DA7582C0211C2C5200966D9D /* QRCode.md */; };
 		DA9A81F2211BEBDA0074E8A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9A81F1211BEBDA0074E8A8 /* AppDelegate.swift */; };
@@ -53,6 +54,7 @@
 		DA52B59D2123CD00004BDC34 /* GradientColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientColor.swift; sourceTree = "<group>"; };
 		DA52B59F2123D39C004BDC34 /* GradientColor.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = GradientColor.md; sourceTree = "<group>"; };
 		DA52B5A22123D750004BDC34 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		DA52B5A52123FDDF004BDC34 /* CrawData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrawData.swift; sourceTree = "<group>"; };
 		DA7582BE211C2AB700966D9D /* CreateQRCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateQRCode.swift; sourceTree = "<group>"; };
 		DA7582C0211C2C5200966D9D /* QRCode.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = QRCode.md; sourceTree = "<group>"; };
 		DA9A81EE211BEBDA0074E8A8 /* PlugProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlugProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,6 +135,14 @@
 			path = BaseExtension;
 			sourceTree = "<group>";
 		};
+		DA52B5A42123FD5E004BDC34 /* CrawlData */ = {
+			isa = PBXGroup;
+			children = (
+				DA52B5A52123FDDF004BDC34 /* CrawData.swift */,
+			);
+			path = CrawlData;
+			sourceTree = "<group>";
+		};
 		DA7582BD211C2A9400966D9D /* QRCode */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,6 +175,7 @@
 		DA9A81F0211BEBDA0074E8A8 /* PlugProject */ = {
 			isa = PBXGroup;
 			children = (
+				DA52B5A42123FD5E004BDC34 /* CrawlData */,
 				DA52B5A12123D732004BDC34 /* BaseExtension */,
 				DA52B59C2123CCD5004BDC34 /* Color */,
 				DA44DC8A211C2F77007097B9 /* Gyroscope */,
@@ -350,6 +361,7 @@
 			files = (
 				DA7582BF211C2AB700966D9D /* CreateQRCode.swift in Sources */,
 				DA44DC8C211D41C7007097B9 /* GPSClass.swift in Sources */,
+				DA52B5A62123FDDF004BDC34 /* CrawData.swift in Sources */,
 				DA44DC90211D6E5D007097B9 /* GyroscopeClass.swift in Sources */,
 				DA52B59E2123CD00004BDC34 /* GradientColor.swift in Sources */,
 				DA9A81F4211BEBDA0074E8A8 /* ViewController.swift in Sources */,
