@@ -11,6 +11,10 @@
 		DA44DC8E211D547B007097B9 /* GPSClass.md in Resources */ = {isa = PBXBuildFile; fileRef = DA44DC8D211D547B007097B9 /* GPSClass.md */; };
 		DA44DC90211D6E5D007097B9 /* GyroscopeClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA44DC8F211D6E5D007097B9 /* GyroscopeClass.swift */; };
 		DA44DC92211D731A007097B9 /* GyroscopeClass.md in Resources */ = {isa = PBXBuildFile; fileRef = DA44DC91211D731A007097B9 /* GyroscopeClass.md */; };
+		DA4658C72127C60500A76624 /* ReadQRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4658C62127C60500A76624 /* ReadQRCode.swift */; };
+		DA4658CA2127D33600A76624 /* Photograph.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4658C92127D33600A76624 /* Photograph.swift */; };
+		DA4658CD2127D35300A76624 /* SaveHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4658CC2127D35300A76624 /* SaveHandle.swift */; };
+		DA4658CF2127D7E200A76624 /* Photograph.md in Resources */ = {isa = PBXBuildFile; fileRef = DA4658CE2127D7E200A76624 /* Photograph.md */; };
 		DA52B59E2123CD00004BDC34 /* GradientColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA52B59D2123CD00004BDC34 /* GradientColor.swift */; };
 		DA52B5A02123D39C004BDC34 /* GradientColor.md in Resources */ = {isa = PBXBuildFile; fileRef = DA52B59F2123D39C004BDC34 /* GradientColor.md */; };
 		DA52B5A32123D750004BDC34 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA52B5A22123D750004BDC34 /* StringExtension.swift */; };
@@ -51,6 +55,10 @@
 		DA44DC8D211D547B007097B9 /* GPSClass.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = GPSClass.md; sourceTree = "<group>"; };
 		DA44DC8F211D6E5D007097B9 /* GyroscopeClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroscopeClass.swift; sourceTree = "<group>"; };
 		DA44DC91211D731A007097B9 /* GyroscopeClass.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = GyroscopeClass.md; sourceTree = "<group>"; };
+		DA4658C62127C60500A76624 /* ReadQRCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadQRCode.swift; sourceTree = "<group>"; };
+		DA4658C92127D33600A76624 /* Photograph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photograph.swift; sourceTree = "<group>"; };
+		DA4658CC2127D35300A76624 /* SaveHandle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveHandle.swift; sourceTree = "<group>"; };
+		DA4658CE2127D7E200A76624 /* Photograph.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Photograph.md; sourceTree = "<group>"; };
 		DA52B59D2123CD00004BDC34 /* GradientColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientColor.swift; sourceTree = "<group>"; };
 		DA52B59F2123D39C004BDC34 /* GradientColor.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = GradientColor.md; sourceTree = "<group>"; };
 		DA52B5A22123D750004BDC34 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
@@ -118,6 +126,23 @@
 			path = Gyroscope;
 			sourceTree = "<group>";
 		};
+		DA4658C82127C8A200A76624 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				DA4658CE2127D7E200A76624 /* Photograph.md */,
+				DA4658C92127D33600A76624 /* Photograph.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		DA4658CB2127D34000A76624 /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				DA4658CC2127D35300A76624 /* SaveHandle.swift */,
+			);
+			path = Photo;
+			sourceTree = "<group>";
+		};
 		DA52B59C2123CCD5004BDC34 /* Color */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +173,7 @@
 			children = (
 				DA7582C0211C2C5200966D9D /* QRCode.md */,
 				DA7582BE211C2AB700966D9D /* CreateQRCode.swift */,
+				DA4658C62127C60500A76624 /* ReadQRCode.swift */,
 			);
 			path = QRCode;
 			sourceTree = "<group>";
@@ -175,6 +201,8 @@
 		DA9A81F0211BEBDA0074E8A8 /* PlugProject */ = {
 			isa = PBXGroup;
 			children = (
+				DA4658CB2127D34000A76624 /* Photo */,
+				DA4658C82127C8A200A76624 /* Camera */,
 				DA52B5A42123FD5E004BDC34 /* CrawlData */,
 				DA52B5A12123D732004BDC34 /* BaseExtension */,
 				DA52B59C2123CCD5004BDC34 /* Color */,
@@ -330,6 +358,7 @@
 				DA9A81FC211BEBDA0074E8A8 /* LaunchScreen.storyboard in Resources */,
 				DA7582C1211C2C5200966D9D /* QRCode.md in Resources */,
 				DAD0BA78211C0B44005D153F /* Screen Shot&Cap.md in Resources */,
+				DA4658CF2127D7E200A76624 /* Photograph.md in Resources */,
 				DA44DC92211D731A007097B9 /* GyroscopeClass.md in Resources */,
 				DA52B5A02123D39C004BDC34 /* GradientColor.md in Resources */,
 				DA9A81F9211BEBDA0074E8A8 /* Assets.xcassets in Resources */,
@@ -359,14 +388,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA4658C72127C60500A76624 /* ReadQRCode.swift in Sources */,
 				DA7582BF211C2AB700966D9D /* CreateQRCode.swift in Sources */,
 				DA44DC8C211D41C7007097B9 /* GPSClass.swift in Sources */,
 				DA52B5A62123FDDF004BDC34 /* CrawData.swift in Sources */,
 				DA44DC90211D6E5D007097B9 /* GyroscopeClass.swift in Sources */,
 				DA52B59E2123CD00004BDC34 /* GradientColor.swift in Sources */,
 				DA9A81F4211BEBDA0074E8A8 /* ViewController.swift in Sources */,
+				DA4658CA2127D33600A76624 /* Photograph.swift in Sources */,
 				DA52B5A32123D750004BDC34 /* StringExtension.swift in Sources */,
 				DA9A8221211BEF3D0074E8A8 /* ScreenShot.swift in Sources */,
+				DA4658CD2127D35300A76624 /* SaveHandle.swift in Sources */,
 				DA9A8223211BF1A60074E8A8 /* ScreenCap.swift in Sources */,
 				DA9A81F2211BEBDA0074E8A8 /* AppDelegate.swift in Sources */,
 			);

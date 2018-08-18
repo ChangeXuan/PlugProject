@@ -11,15 +11,9 @@ import CoreLocation
 
 class ViewController: UIViewController{
     
-//    let testGyro:GyroscopeClass = GyroscopeClass()
-//    var testLabel:UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        self.testLabel = UILabel.init(frame: CGRect.init(x: 100, y: 100, width: 300, height: 100))
-//        self.testLabel.text = "000000"
-//        self.view.addSubview(self.testLabel)
-        
     }
 
     override func didReceiveMemoryWarning() {
@@ -27,6 +21,7 @@ class ViewController: UIViewController{
     }
     
     @IBAction func screenCap(_ sender: Any) {
+
     }
     @IBAction func screenShot(_ sender: Any) {
     }
@@ -35,9 +30,22 @@ class ViewController: UIViewController{
     @IBAction func motion(_ sender: Any) {
         // 使用GPS获得距离的移动
         // 使用陀螺仪判断手机的携带者是否是自己通过运动来完成距离的移动)
-//        testGyro.startGyro(timeInterval: 0.5)
+    }
+}
+
+extension ViewController:UIImagePickerControllerDelegate ,UINavigationControllerDelegate,PhotographDelegate {
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+        let pickImg = info["UIImagePickerControllerOriginalImage"] as! UIImage
+        UIImageWriteToSavedPhotosAlbum(pickImg, self, nil, nil)
+        picker.dismiss(animated: true) {
+            print("保存成功")
+        }
     }
     
-    
+    func photographUI(picker: UIImagePickerController) {
+        picker.delegate = self
+        self.present(picker, animated: true) {
+        }
+    }
 }
 
