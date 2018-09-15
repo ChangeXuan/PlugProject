@@ -25,6 +25,24 @@ extension UIColor {
         return gradientLayer
     }
     
+    
+    /// 二维码扫描线
+    ///
+    /// - Parameters:
+    ///   - toColor: 起始颜色和终点颜色
+    ///   - frame: 大小
+    /// - Returns: 颜色图层
+    func scanLine(toColor:UIColor,frame:CGRect) -> CAGradientLayer {
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.frame = frame
+        //设置渐变的主颜色
+        gradientLayer.colors = [toColor.cgColor,self.cgColor,toColor.cgColor]
+        // 使渐变色图层变为横向
+        gradientLayer.startPoint = CGPoint.init(x: 0.0, y: 0)
+        gradientLayer.endPoint = CGPoint.init(x: 1.0, y: 0)
+        return gradientLayer
+    }
+    
     /// 使用16进制转换为RGB
     ///
     /// - Parameter rgbValue: 16进制int类型"0xffffff"
