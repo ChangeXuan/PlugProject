@@ -20,7 +20,7 @@ extension UIColor {
     func gradientColor(toColor:UIColor,frame:CGRect) -> CAGradientLayer {
         let gradientLayer = CAGradientLayer()
         gradientLayer.frame = frame
-        //设置渐变的主颜色
+        // 设置渐变的主颜色
         gradientLayer.colors = [self.cgColor,toColor.cgColor]
         return gradientLayer
     }
@@ -35,9 +35,9 @@ extension UIColor {
     func scanLine(toColor:UIColor,frame:CGRect) -> CAGradientLayer {
         let gradientLayer = CAGradientLayer()
         gradientLayer.frame = frame
-        //设置渐变的主颜色
+        // 设置渐变的主颜色
         gradientLayer.colors = [toColor.cgColor,self.cgColor,toColor.cgColor]
-        // 使渐变色图层变为横向
+        // 通过设置锚点使渐变色图层变为横向
         gradientLayer.startPoint = CGPoint.init(x: 0.0, y: 0)
         gradientLayer.endPoint = CGPoint.init(x: 1.0, y: 0)
         return gradientLayer
